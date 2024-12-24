@@ -7,33 +7,50 @@
   <title>JS Variables Exercise</title>
   <script src="script.js"></script>
 </head>
+<link rel="stylesheet" href="style.css">
 
 <body>
-  <button onclick="
+  <div class="container">
+    <div>
+
+      <button class="cart-btn" onclick="
     console.log(`Cart Quantity ${cartQuantity}`);
     
     ">Show Quantity</button>
-  <button onclick="
+    </div>
+    <div>
+
+      <button class="cart-btn" onclick="
   cartQuantity=cartQuantity+1
   console.log(`Cart Quantity ${cartQuantity}`);
   
   ">Add to Cart</button>
-  <button onclick="
+    </div>
+    <div>
+
+      <button class="cart-btn" onclick="
   cartQuantity=cartQuantity+2
   console.log(`Cart Quantity ${cartQuantity}`);
   
   ">+2</button>
-  <button onclick="
+    </div>
+    <div>
+
+      <button class="cart-btn" onclick="
   cartQuantity=cartQuantity+3
   console.log(`Cart Quantity ${cartQuantity}`);
   
   ">+3</button>
-  <button onclick="
+    </div>
+    <div>
+
+      <button class="cart-btn" onclick="
   cartQuantity=0;
   console.log(`Cart Quantity ${cartQuantity}`);
   
   ">Reset Cart</button>
-
+    </div>
+  </div>
 
 
 </body>
